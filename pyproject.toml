@@ -16,10 +16,13 @@ classifiers = [
 Changelog = "https://github.com/mgomersbach/matterless/releases"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8"
 click = ">=8.0.1"
 mattermostdriver = "^7.3.2"
-pytermgui = "^6.4.0"
+appdirs = "^1.4.4"
+shelved-cache = "^0.2.1"
+pyTermTk = "^0.9.0-alpha.62"
+pylint = "^2.14.4"
 
 [tool.poetry.dev-dependencies]
 Pygments = ">=2.10.0"
@@ -79,3 +82,7 @@ show_error_context = true
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
+preview = true
