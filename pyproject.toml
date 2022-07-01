@@ -23,6 +23,7 @@ appdirs = "^1.4.4"
 shelved-cache = "^0.2.1"
 pyTermTk = "^0.9.0-alpha.62"
 pylint = "^2.14.4"
+poetry-types = "^0.2.2"
 
 [tool.poetry.dev-dependencies]
 Pygments = ">=2.10.0"
